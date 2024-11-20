@@ -5,7 +5,7 @@ A java implementation of a register
 
 ## Build dependencies
 [You need to build these 3 dependencies and add them to the lib folder](libs/README.md)
-[dropwizard-logstash](https://github.com/TPZDSP3/dropwizard-logstash)
+[dropwizard-logstash build_46](https://github.com/TPZDSP3/dropwizard-logstash)
 [objecthash-java](https://github.com/TPZDSP3/objecthash-java)
 [verifiable-log](https://github.com/TPZDSP3/verifiable-log)
 
