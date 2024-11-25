@@ -1,0 +1,55 @@
+version: '3'
+services:
+  openregister-field:
+    image: openjdk:8-jre
+    container_name: openregister-field
+    # hack so that we wait for postgres to be available not just started
+    command: bash -c '/srv/openregister-java/wait-for-it.sh postgres:5432 -- java -jar /srv/openregister-java/openregister-java.jar server /srv/openregister-java/config.yaml'
+    # command: tail -f /dev/null
+    ports:
+      - 4001:8080
+    volumes:
+      - ./wait-for-it.sh:/srv/openregister-java/wait-for-it.sh:ro
+      - ./config.docker.field.yaml:/srv/openregister-java/config.yaml:ro
+      - ./deploy/openregister-java.jar:/srv/openregister-java/openregister-java.jar:ro
+      # - ./src/main/resources/config/fields.json:/config/fields.json:ro
+      # - ./src/main/resources/config/registers.json:/config/registers.json:ro      
+    networks:
+      - openregister-java_default
+    cap_drop:
+          - NET_ADMIN
+          - SYS_ADMIN
+          - SYS_MODULE
+          - SYS_CHROOT
+          - CHOWN
+#          - DAC_OVERRIDE
+          - FOWNER
+          - FSETID
+          - SETPCAP
+          - MKNOD
+          - AUDIT_WRITE
+          - SETFCAP
+
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080 || exit 1"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+    # deploy:
+    #   mode: replicated
+    #   replicas: 1
+    #   resources:
+    #     limits:
+    #       cpus: '0.50'
+    #       memory: 200M
+    #     reservations:
+    #       cpus: '0.25'
+    #       memory: 128M
+
+
+networks:
+  openregister-java_default:
+    external: true
+

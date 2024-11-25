@@ -2,15 +2,21 @@ version: '3'
 services:
   openregister-basic:
     image: openjdk:8-jre
+    #mem_limit: 256m
+    #mem_reservation: 24M
+    #cpus: 0.4
     container_name: openregister-basic
     # hack so that we wait for postgres to be available not just started
-    command: bash -c '/srv/openregister-java/wait-for-it.sh postgres:5432 -- java -jar /srv/openregister-java/openregister-java.jar server /srv/openregister-java/config.yaml'
+    command: bash -c '/srv/openregister-java/wait-for-it.sh postgres:5432 -- java -XX:+PrintFlagsFinal -XX:+PrintGCDetails -Xms256m -Xmx256m -jar /srv/openregister-java/openregister-java.jar server /srv/openregister-java/config.yaml'
     ports:
-      - 127.0.0.1:8081:80
+      - 8081:80
     volumes:
       - ./wait-for-it.sh:/srv/openregister-java/wait-for-it.sh:ro
       - ./config.docker.basic.yaml:/srv/openregister-java/config.yaml:ro
       - ./deploy/openregister-java.jar:/srv/openregister-java/openregister-java.jar:ro
+      # - ./src/main/resources/config/fields.json:/config/fields.json:ro
+      # - ./src/main/resources/config/registers.json:/config/registers.json:ro
+      
     links:
       - postgres
     depends_on:
@@ -21,10 +27,74 @@ services:
           - field
           - register
           - datatype
+          - country
+
+    cap_drop:
+          - NET_ADMIN
+          - SYS_ADMIN
+          - SYS_MODULE
+          - SYS_CHROOT
+          - CHOWN
+#         - DAC_OVERRIDE
+          - FOWNER
+          - FSETID
+          - SETPCAP
+          - MKNOD
+          - AUDIT_WRITE
+          - SETFCAP
+
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:80 || exit 1"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 300M
+        reservations:
+          cpus: '0.25'
+          memory: 300M
 
   postgres:
     image: postgres:alpine
+    #mem_limit: 768m
+    #mem_reservation: 64M
+    #cpus: 0.4
+    command:
+      - --work_mem=$PG_WORK_MEM
+      - --maintenance_work_mem=$PG_MAINTENANCE_WORK_MEM    
     expose:
       - 5432
     environment:
       - POSTGRES_DB=openregister_java
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    cap_drop:
+          - NET_ADMIN
+          - SYS_ADMIN
+          - SYS_MODULE
+          - SYS_CHROOT
+          - CHOWN
+#         - DAC_OVERRIDE
+          - FOWNER
+          - FSETID
+          - SETPCAP
+          - MKNOD
+          - AUDIT_WRITE
+          - SETFCAP
+
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 768M
+        reservations:
+          cpus: '0.25'
+          memory: 128M

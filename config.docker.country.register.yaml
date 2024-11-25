@@ -1,0 +1,64 @@
+database:
+  driverClass: org.postgresql.Driver
+  url: jdbc:postgresql://postgres:5432/openregister_java
+  user: postgres
+  password:
+
+  #db connection properties
+  initialSize: 1
+  minSize: 1
+  maxSize: 4
+
+  properties:
+    charSet: UTF-8
+
+server:
+  registerDefaultExceptionMappers: false
+  adminConnectors:
+    - type: http
+      port: 9092
+  requestLog:
+    appenders:
+      - type: access-logstash-console
+
+registerDomain: 192.168.1.99:4011
+
+register: country
+schema: country
+
+enableDownloadResource: true
+
+externalConfigDirectory: /tmp
+
+downloadConfigs: true
+
+# can be http: file s3: or classpath: url
+#fieldsJsonLocation: http://field/records.json?page-size=5000
+#registersJsonLocation: http://register/records.json?page-size=5000
+#fieldsJsonLocation: https://field.register.register-register-research.cloud/records.json?page-size=5000
+#registersJsonLocation: https://register.register.register-research.cloud/records.json?page-size=5000
+# fieldsJsonLocation: classpath://config/fields.json
+# registersJsonLocation: classpath://config/registers.json
+fieldsJsonLocation: http://192.168.1.99:4001/records.json
+registersJsonLocation: http://192.168.1.99:8081/records.json
+
+credentials:
+  user: foo
+  password: bar
+
+# Logging settings.
+logging:
+  level: INFO
+  # Logger-specific levels.
+  loggers:
+    "uk.gov": DEBUG
+    "org.skife.jdbi.v2": TRACE
+  appenders:
+    - type: logstash-console
+
+#registers:
+#  territory:
+#    credentials:
+#      user: foo
+#      password: bar
+#    schema: territory

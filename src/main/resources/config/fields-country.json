@@ -1,0 +1,687 @@
+{
+	"country": {
+	  "index-entry-number": "17",
+	  "entry-number": "17",
+	  "entry-timestamp": "2021-11-30T23:33:09Z",
+	  "key": "country",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "country",
+		  "datatype": "string",
+		  "text": "The countrys 2-letter ISO 3166-2 alpha2 code.",
+		  "cardinality": "1",
+		  "register": "country"
+		}
+	  ]
+	},
+	"statistical-geography-registration-district-wls": {
+	  "index-entry-number": "41",
+	  "entry-number": "41",
+	  "entry-timestamp": "2021-12-01T00:37:16Z",
+	  "key": "statistical-geography-registration-district-wls",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-registration-district-wls",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a registration district in Wales.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-registration-district-wls"
+		}
+	  ]
+	},
+	"copyright": {
+	  "index-entry-number": "7",
+	  "entry-number": "7",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "copyright",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "copyright",
+		  "datatype": "text",
+		  "text": "The copyright and licensing terms which may apply to the data held in a register.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"organisation": {
+	  "index-entry-number": "27",
+	  "entry-number": "27",
+	  "entry-timestamp": "2021-11-30T23:52:34Z",
+	  "key": "organisation",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "organisation",
+		  "datatype": "curie",
+		  "text": "The entitys organisation.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"start-date": {
+	  "index-entry-number": "2",
+	  "entry-number": "2",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "start-date",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "start-date",
+		  "datatype": "datetime",
+		  "text": "The date a record first became relevant to a register.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"citizen-names": {
+	  "index-entry-number": "16",
+	  "entry-number": "16",
+	  "entry-timestamp": "2021-11-30T23:33:09Z",
+	  "key": "citizen-names",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "citizen-names",
+		  "datatype": "string",
+		  "text": "The name of a country's citizens.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"statistical-geography-unitary-authority-eng": {
+	  "index-entry-number": "43",
+	  "entry-number": "43",
+	  "entry-timestamp": "2021-12-01T00:41:16Z",
+	  "key": "statistical-geography-unitary-authority-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-unitary-authority-eng",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a unitary authority in England.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-unitary-authority-eng"
+		}
+	  ]
+	},
+	"hostname": {
+	  "index-entry-number": "23",
+	  "entry-number": "23",
+	  "entry-timestamp": "2021-11-30T23:49:02Z",
+	  "key": "hostname",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "hostname",
+		  "datatype": "string",
+		  "text": "The section of a URL that identifies a government domain.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"internal-drainage-board": {
+	  "index-entry-number": "62",
+	  "entry-number": "62",
+	  "entry-timestamp": "2021-12-01T01:11:13Z",
+	  "key": "internal-drainage-board",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "internal-drainage-board",
+		  "datatype": "string",
+		  "text": "The unique code for an internal drainage board.",
+		  "cardinality": "1",
+		  "register": "internal-drainage-board"
+		}
+	  ]
+	},
+	"principal-local-authority": {
+	  "index-entry-number": "44",
+	  "entry-number": "44",
+	  "entry-timestamp": "2021-12-01T00:43:25Z",
+	  "key": "principal-local-authority",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "principal-local-authority",
+		  "datatype": "string",
+		  "text": "A principal local authority in Wales.",
+		  "cardinality": "1",
+		  "register": "principal-local-authority"
+		}
+	  ]
+	},
+	"datatype": {
+	  "index-entry-number": "8",
+	  "entry-number": "8",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "datatype",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "datatype",
+		  "datatype": "string",
+		  "text": "The format of the data held in a field.",
+		  "cardinality": "1",
+		  "register": "datatype"
+		}
+	  ]
+	},
+	"registration-district": {
+	  "index-entry-number": "38",
+	  "entry-number": "38",
+	  "entry-timestamp": "2021-12-01T00:33:56Z",
+	  "key": "registration-district",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "registration-district",
+		  "datatype": "string",
+		  "text": "The code for a registration district in England or Wales.",
+		  "cardinality": "1",
+		  "register": "registration-district"
+		}
+	  ]
+	},
+	"name-cy": {
+	  "index-entry-number": "58",
+	  "entry-number": "58",
+	  "entry-timestamp": "2021-12-01T01:08:05Z",
+	  "key": "name-cy",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "name-cy",
+		  "datatype": "string",
+		  "text": "Welsh name for an entry.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"text": {
+	  "index-entry-number": "3",
+	  "entry-number": "3",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "text",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "text",
+		  "datatype": "text",
+		  "text": "More information about a record in a register.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"legislation": {
+	  "index-entry-number": "60",
+	  "entry-number": "60",
+	  "entry-timestamp": "2021-12-01T01:11:13Z",
+	  "key": "legislation",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "legislation",
+		  "datatype": "string",
+		  "text": "The unique code for the legislation that defines the board's powers and duties.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"statistical-geography-local-government-district-nir": {
+	  "index-entry-number": "33",
+	  "entry-number": "33",
+	  "entry-timestamp": "2021-12-01T00:22:54Z",
+	  "key": "statistical-geography-local-government-district-nir",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-local-government-district-nir",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a local government district in Northern Ireland.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-local-government-district-nir"
+		}
+	  ]
+	},
+	"area": {
+	  "index-entry-number": "26",
+	  "entry-number": "26",
+	  "entry-timestamp": "2021-11-30T23:52:34Z",
+	  "key": "area",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "area",
+		  "datatype": "curie",
+		  "text": "The geographic area for an entity.",
+		  "cardinality": "n"
+		}
+	  ]
+	},
+	"phase": {
+	  "index-entry-number": "9",
+	  "entry-number": "9",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "phase",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "phase",
+		  "datatype": "string",
+		  "text": "The stage of development a register is in. There are 4 phases - discovery, alpha, beta and live.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"local-authority-type": {
+	  "index-entry-number": "47",
+	  "entry-number": "47",
+	  "entry-timestamp": "2021-12-01T00:45:53Z",
+	  "key": "local-authority-type",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "local-authority-type",
+		  "datatype": "string",
+		  "text": "The type of local government organisation.",
+		  "cardinality": "1",
+		  "register": "local-authority-type"
+		}
+	  ]
+	},
+	"registry": {
+	  "index-entry-number": "13",
+	  "entry-number": "13",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "registry",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "registry",
+		  "datatype": "string",
+		  "text": "The organisation responsible for the data in a register. The custodian is usually from the organisation.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"website": {
+	  "index-entry-number": "50",
+	  "entry-number": "50",
+	  "entry-timestamp": "2021-12-01T00:55:12Z",
+	  "key": "website",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "website",
+		  "datatype": "url",
+		  "text": "The website for a record.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"statistical-geography-registration-district-eng": {
+	  "index-entry-number": "39",
+	  "entry-number": "39",
+	  "entry-timestamp": "2021-12-01T00:33:56Z",
+	  "key": "statistical-geography-registration-district-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-registration-district-eng",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a registration district in England.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-registration-district-eng"
+		}
+	  ]
+	},
+	"statistical-geography-london-borough-eng": {
+	  "index-entry-number": "34",
+	  "entry-number": "34",
+	  "entry-timestamp": "2021-12-01T00:25:34Z",
+	  "key": "statistical-geography-london-borough-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-london-borough-eng",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a London borough in England.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-london-borough-eng"
+		}
+	  ]
+	},
+	"statistical-geography-county-eng": {
+	  "index-entry-number": "30",
+	  "entry-number": "30",
+	  "entry-timestamp": "2021-12-01T00:20:11Z",
+	  "key": "statistical-geography-county-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-county-eng",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a county in England.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-county-eng"
+		}
+	  ]
+	},
+	"official-name-cy": {
+	  "index-entry-number": "57",
+	  "entry-number": "57",
+	  "entry-timestamp": "2021-12-01T01:01:32Z",
+	  "key": "official-name-cy",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "official-name-cy",
+		  "datatype": "string",
+		  "text": "The official or technical Welsh name of a record.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"government-organisation": {
+	  "index-entry-number": "20",
+	  "entry-number": "20",
+	  "entry-timestamp": "2021-11-30T23:47:05Z",
+	  "key": "government-organisation",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "government-organisation",
+		  "datatype": "string",
+		  "text": "The unique code representing a government organisation.",
+		  "cardinality": "1",
+		  "register": "government-organisation"
+		}
+	  ]
+	},
+	"abbreviation": {
+	  "index-entry-number": "4",
+	  "entry-number": "4",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "abbreviation",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "abbreviation",
+		  "datatype": "string",
+		  "text": "The abbreviated form of a records official-name or name.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"statistical-geography-non-metropolitan-district-eng": {
+	  "index-entry-number": "37",
+	  "entry-number": "37",
+	  "entry-timestamp": "2021-12-01T00:30:25Z",
+	  "key": "statistical-geography-non-metropolitan-district-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-non-metropolitan-district-eng",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a non-metropolitan district in England.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-non-metropolitan-district-eng"
+		}
+	  ]
+	},
+	"cardinality": {
+	  "index-entry-number": "10",
+	  "entry-number": "10",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "cardinality",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "cardinality",
+		  "datatype": "string",
+		  "text": "A character (either '1' or 'n') that explains if a field in a register can contain multiple values. For example, a Strategic Health Authority may be located in two different territories.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"local-authority-nir": {
+	  "index-entry-number": "52",
+	  "entry-number": "52",
+	  "entry-timestamp": "2021-12-01T00:55:12Z",
+	  "key": "local-authority-nir",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "local-authority-nir",
+		  "datatype": "string",
+		  "text": "The unique code for a local authority in Northern Ireland.",
+		  "cardinality": "1",
+		  "register": "local-authority-nir"
+		}
+	  ]
+	},
+	"short-name": {
+	  "index-entry-number": "5",
+	  "entry-number": "5",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "short-name",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "short-name",
+		  "datatype": "string",
+		  "text": "The short name of a record.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"statistical-geography-unitary-authority-wls": {
+	  "index-entry-number": "45",
+	  "entry-number": "45",
+	  "entry-timestamp": "2021-12-01T00:43:25Z",
+	  "key": "statistical-geography-unitary-authority-wls",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography-unitary-authority-wls",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a principal local authority.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-unitary-authority-wls"
+		}
+	  ]
+	},
+	"end-date": {
+	  "index-entry-number": "1",
+	  "entry-number": "1",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "end-date",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "end-date",
+		  "datatype": "datetime",
+		  "text": "The date a record stopped being applicable.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"official-name": {
+	  "index-entry-number": "15",
+	  "entry-number": "15",
+	  "entry-timestamp": "2021-11-30T23:33:09Z",
+	  "key": "official-name",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "official-name",
+		  "datatype": "string",
+		  "text": "The official or technical name of a record.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"field": {
+	  "index-entry-number": "12",
+	  "entry-number": "12",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "field",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "field",
+		  "datatype": "string",
+		  "text": "The name of a field. This field can appear in more than one register.",
+		  "cardinality": "1",
+		  "register": "field"
+		}
+	  ]
+	},
+	"local-authority-eng": {
+	  "index-entry-number": "49",
+	  "entry-number": "49",
+	  "entry-timestamp": "2021-12-01T00:45:53Z",
+	  "key": "local-authority-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "local-authority-eng",
+		  "datatype": "string",
+		  "text": "The local authority's ISO 3166-2:GB code. Unique codes have been created for local authorities that don't have an existing ISO code.",
+		  "cardinality": "1",
+		  "register": "local-authority-eng"
+		}
+	  ]
+	},
+	"statistical-geography-metropolitan-district-eng": {
+	  "index-entry-number": "35",
+	  "entry-number": "35",
+	  "entry-timestamp": "2021-12-01T00:28:04Z",
+	  "key": "statistical-geography-metropolitan-district-eng",
+	  "item": [
+		{
+		  "phase": "alpha",
+		  "field": "statistical-geography-metropolitan-district-eng",
+		  "datatype": "string",
+		  "text": "The statistical geography code for a metropolitan district in England.",
+		  "cardinality": "1",
+		  "register": "statistical-geography-metropolitan-district-eng"
+		}
+	  ]
+	},
+	"name": {
+	  "index-entry-number": "6",
+	  "entry-number": "6",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "name",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "name",
+		  "datatype": "string",
+		  "text": "The commonly-used name of a record.",
+		  "cardinality": "1"
+		}
+	  ]
+	},
+	"local-authority-sct": {
+	  "index-entry-number": "54",
+	  "entry-number": "54",
+	  "entry-timestamp": "2021-12-01T00:56:58Z",
+	  "key": "local-authority-sct",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "local-authority-sct",
+		  "datatype": "string",
+		  "text": "The unique code for a local authority in Scotland.",
+		  "cardinality": "1",
+		  "register": "local-authority-sct"
+		}
+	  ]
+	},
+	"fields": {
+	  "index-entry-number": "11",
+	  "entry-number": "11",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "fields",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "fields",
+		  "datatype": "string",
+		  "text": "The names of the fields in a register.",
+		  "cardinality": "n",
+		  "register": "field"
+		}
+	  ]
+	},
+	"statistical-geography": {
+	  "index-entry-number": "28",
+	  "entry-number": "28",
+	  "entry-timestamp": "2021-11-30T23:52:34Z",
+	  "key": "statistical-geography",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "statistical-geography",
+		  "datatype": "string",
+		  "text": "The unique code for a geography used in official statistics. A geography is a way to divide a larger area into smaller areas.",
+		  "cardinality": "1",
+		  "register": "statistical-geography"
+		}
+	  ]
+	},
+	"government-domain": {
+	  "index-entry-number": "25",
+	  "entry-number": "25",
+	  "entry-timestamp": "2021-11-30T23:49:02Z",
+	  "key": "government-domain",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "government-domain",
+		  "datatype": "string",
+		  "text": "The unique code for a GOV.UK government domain.",
+		  "cardinality": "1",
+		  "register": "government-domain"
+		}
+	  ]
+	},
+	"territory": {
+	  "index-entry-number": "18",
+	  "entry-number": "18",
+	  "entry-timestamp": "2021-11-30T23:45:10Z",
+	  "key": "territory",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "territory",
+		  "datatype": "string",
+		  "text": "The territory's ISO 3166-1 alpha3 code. Unique codes have been created for territories that don't have an existing ISO code.",
+		  "cardinality": "1",
+		  "register": "territory"
+		}
+	  ]
+	},
+	"register": {
+	  "index-entry-number": "14",
+	  "entry-number": "14",
+	  "entry-timestamp": "2019-05-17T19:31:59Z",
+	  "key": "register",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "field": "register",
+		  "datatype": "string",
+		  "text": "The name of a register.",
+		  "cardinality": "1",
+		  "register": "register"
+		}
+	  ]
+	}
+  }

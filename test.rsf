@@ -1,0 +1,2 @@
+add-item	{"fields":["foobar","name","start-date","end-date"],"phase":"alpha","register":"foobar","registry":"government-digital-service","text":"A test register"}
+append-entry	user	foobar	2024-11-11T16:27:35Z	sha-256:1cc74d6c9dbc05fdeb94a3cbc999322fce63b4f211dc4dd1b16994ada59738fa

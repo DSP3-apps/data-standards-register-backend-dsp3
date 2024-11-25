@@ -1,0 +1,65 @@
+{
+	"field": {
+		"index-entry-number": "2",
+		"entry-number": "2",
+		"entry-timestamp": "2019-05-17T19:05:22Z",
+		"key": "field",
+		"item": [
+			{
+				"phase": "beta",
+				"registry": "environment-agency",
+				"text": "Field names which may appear in a register",
+				"fields": [
+					"field",
+					"datatype",
+					"phase",
+					"register",
+					"cardinality",
+					"text"
+				],
+				"register": "field"
+			}
+		]
+	},
+	"datatype": {
+		"index-entry-number": "1",
+		"entry-number": "1",
+		"entry-timestamp": "2019-05-17T19:05:22Z",
+		"key": "datatype",
+		"item": [
+			{
+				"phase": "beta",
+				"registry": "environment-agency",
+				"text": "Forms that the data in a register field can take",
+				"fields": [
+					"datatype",
+					"phase",
+					"text"
+				],
+				"register": "datatype"
+			}
+		]
+	},
+	"register": {
+		"index-entry-number": "3",
+		"entry-number": "3",
+		"entry-timestamp": "2019-05-17T19:05:22Z",
+		"key": "register",
+		"item": [
+			{
+				"phase": "beta",
+				"registry": "environment-agency",
+				"text": "Registers maintained by the Environment Agency",
+				"fields": [
+					"register",
+					"text",
+					"registry",
+					"phase",
+					"copyright",
+					"fields"
+				],
+				"register": "register"
+			}
+		]
+	}
+}

@@ -1,0 +1,509 @@
+{
+	"statistical-geography-local-government-district-nir": {
+	  "index-entry-number": "14",
+	  "entry-number": "14",
+	  "entry-timestamp": "2021-12-01T00:22:54Z",
+	  "key": "statistical-geography-local-government-district-nir",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for local government districts in Northern Ireland",
+		  "fields": [
+			"statistical-geography-local-government-district-nir",
+			"local-authority-nir",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-local-government-district-nir"
+		}
+	  ]
+	},
+	"local-authority-type": {
+	  "index-entry-number": "30",
+	  "entry-number": "30",
+	  "entry-timestamp": "2021-12-01T00:59:03Z",
+	  "key": "local-authority-type",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "ministry-of-housing-communities-and-local-government",
+		  "text": "Types of local government organisations in the UK",
+		  "fields": [
+			"local-authority-type",
+			"name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "local-authority-type"
+		}
+	  ]
+	},
+	"country": {
+	  "index-entry-number": "4",
+	  "entry-number": "4",
+	  "entry-timestamp": "2021-11-30T23:33:09Z",
+	  "key": "country",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "foreign-commonwealth-office",
+		  "text": "British English names of all countries currently recognised by the UK government",
+		  "fields": [
+			"country",
+			"name",
+			"official-name",
+			"citizen-names",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "country"
+		}
+	  ]
+	},
+	"statistical-geography-registration-district-wls": {
+	  "index-entry-number": "21",
+	  "entry-number": "21",
+	  "entry-timestamp": "2021-12-01T00:37:16Z",
+	  "key": "statistical-geography-registration-district-wls",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for registration districts in Wales",
+		  "fields": [
+			"statistical-geography-registration-district-wls",
+			"registration-district",
+			"name",
+			"name-cy",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-registration-district-wls"
+		}
+	  ]
+	},
+	"statistical-geography-registration-district-eng": {
+	  "index-entry-number": "20",
+	  "entry-number": "20",
+	  "entry-timestamp": "2021-12-01T00:33:56Z",
+	  "key": "statistical-geography-registration-district-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for registration districts in England",
+		  "fields": [
+			"statistical-geography-registration-district-eng",
+			"registration-district",
+			"name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-registration-district-eng"
+		}
+	  ]
+	},
+	"statistical-geography-london-borough-eng": {
+	  "index-entry-number": "15",
+	  "entry-number": "15",
+	  "entry-timestamp": "2021-12-01T00:25:34Z",
+	  "key": "statistical-geography-london-borough-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for London boroughs in England",
+		  "fields": [
+			"statistical-geography-london-borough-eng",
+			"local-authority-eng",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-london-borough-eng"
+		}
+	  ]
+	},
+	"statistical-geography-county-eng": {
+	  "index-entry-number": "13",
+	  "entry-number": "13",
+	  "entry-timestamp": "2021-12-01T00:20:11Z",
+	  "key": "statistical-geography-county-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for counties in England",
+		  "fields": [
+			"statistical-geography-county-eng",
+			"local-authority-eng",
+			"name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-county-eng"
+		}
+	  ]
+	},
+	"government-organisation": {
+	  "index-entry-number": "8",
+	  "entry-number": "8",
+	  "entry-timestamp": "2021-11-30T23:47:06Z",
+	  "key": "government-organisation",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "government-digital-service",
+		  "text": "Government domains that appear on GOV.UK",
+		  "fields": [
+			"government-organisation",
+			"name",
+			"website",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "government-organisation"
+		}
+	  ]
+	},
+	"statistical-geography-non-metropolitan-district-eng": {
+	  "index-entry-number": "19",
+	  "entry-number": "19",
+	  "entry-timestamp": "2021-12-01T00:30:25Z",
+	  "key": "statistical-geography-non-metropolitan-district-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for non-metropolitan districts in England",
+		  "fields": [
+			"statistical-geography-non-metropolitan-district-eng",
+			"local-authority-eng",
+			"name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-non-metropolitan-district-eng"
+		}
+	  ]
+	},
+	"local-authority-nir": {
+	  "index-entry-number": "27",
+	  "entry-number": "27",
+	  "entry-timestamp": "2021-12-01T00:55:12Z",
+	  "key": "local-authority-nir",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "department-for-communities-northern-ireland",
+		  "text": "Local authorities in Northern Ireland",
+		  "fields": [
+			"local-authority-nir",
+			"local-authority-type",
+			"name",
+			"website",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "local-authority-nir"
+		}
+	  ]
+	},
+	"statistical-geography-unitary-authority-wls": {
+	  "index-entry-number": "24",
+	  "entry-number": "24",
+	  "entry-timestamp": "2021-12-01T00:43:25Z",
+	  "key": "statistical-geography-unitary-authority-wls",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for unitary authorities in Wales",
+		  "fields": [
+			"statistical-geography-unitary-authority-wls",
+			"principal-local-authority",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-unitary-authority-wls"
+		}
+	  ]
+	},
+	"statistical-geography-unitary-authority-eng": {
+	  "index-entry-number": "22",
+	  "entry-number": "22",
+	  "entry-timestamp": "2021-12-01T00:41:16Z",
+	  "key": "statistical-geography-unitary-authority-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for unitary authorities in England",
+		  "fields": [
+			"statistical-geography-unitary-authority-eng",
+			"local-authority-eng",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-unitary-authority-eng"
+		}
+	  ]
+	},
+	"internal-drainage-board": {
+	  "index-entry-number": "35",
+	  "entry-number": "35",
+	  "entry-timestamp": "2021-12-01T01:11:13Z",
+	  "key": "internal-drainage-board",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "department-for-environment-food-rural-affairs",
+		  "text": "Internal drainage boards in England",
+		  "fields": [
+			"internal-drainage-board",
+			"name",
+			"legislation",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "internal-drainage-board"
+		}
+	  ]
+	},
+	"field": {
+	  "index-entry-number": "2",
+	  "entry-number": "2",
+	  "entry-timestamp": "2019-05-17T19:05:22Z",
+	  "key": "field",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "environment-agency",
+		  "text": "Field names which may appear in a register",
+		  "fields": [
+			"field",
+			"datatype",
+			"phase",
+			"register",
+			"cardinality",
+			"text"
+		  ],
+		  "register": "field"
+		}
+	  ]
+	},
+	"principal-local-authority": {
+	  "index-entry-number": "31",
+	  "entry-number": "31",
+	  "entry-timestamp": "2021-12-01T01:01:32Z",
+	  "key": "principal-local-authority",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "welsh-government",
+		  "text": "Principal local authorities in Wales",
+		  "fields": [
+			"principal-local-authority",
+			"name",
+			"name-cy",
+			"official-name",
+			"official-name-cy",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "principal-local-authority"
+		}
+	  ]
+	},
+	"datatype": {
+	  "index-entry-number": "1",
+	  "entry-number": "1",
+	  "entry-timestamp": "2019-05-17T19:05:22Z",
+	  "key": "datatype",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "environment-agency",
+		  "text": "Forms that the data in a register field can take",
+		  "fields": [
+			"datatype",
+			"phase",
+			"text"
+		  ],
+		  "register": "datatype"
+		}
+	  ]
+	},
+	"registration-district": {
+	  "index-entry-number": "33",
+	  "entry-number": "33",
+	  "entry-timestamp": "2021-12-01T01:08:06Z",
+	  "key": "registration-district",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "hm-passport-office",
+		  "text": "Districts in England and Wales responsible for recording civil registration events, such as births, marriages, deaths and civil partnerships",
+		  "fields": [
+			"registration-district",
+			"name",
+			"name-cy",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "registration-district"
+		}
+	  ]
+	},
+	"local-authority-eng": {
+	  "index-entry-number": "26",
+	  "entry-number": "26",
+	  "entry-timestamp": "2021-12-01T00:45:53Z",
+	  "key": "local-authority-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "department-for-communities-and-local-government",
+		  "text": "Local authorities in England",
+		  "fields": [
+			"local-authority-eng",
+			"local-authority-type",
+			"name",
+			"official-name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "local-authority-eng"
+		}
+	  ]
+	},
+	"statistical-geography-metropolitan-district-eng": {
+	  "index-entry-number": "17",
+	  "entry-number": "17",
+	  "entry-timestamp": "2021-12-01T00:28:04Z",
+	  "key": "statistical-geography-metropolitan-district-eng",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Statistical geography data for metropolitan districts in England",
+		  "fields": [
+			"statistical-geography-metropolitan-district-eng",
+			"local-authority-eng",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography-metropolitan-district-eng"
+		}
+	  ]
+	},
+	"local-authority-sct": {
+	  "index-entry-number": "28",
+	  "entry-number": "28",
+	  "entry-timestamp": "2021-12-01T00:56:58Z",
+	  "key": "local-authority-sct",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "the-scottish-government",
+		  "text": "Local authorities in Scotland",
+		  "fields": [
+			"local-authority-sct",
+			"local-authority-type",
+			"name",
+			"official-name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "local-authority-sct"
+		}
+	  ]
+	},
+	"statistical-geography": {
+	  "index-entry-number": "12",
+	  "entry-number": "12",
+	  "entry-timestamp": "2021-11-30T23:52:34Z",
+	  "key": "statistical-geography",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "office-for-national-statistics",
+		  "text": "Geographies that are used in compiling official statistics",
+		  "fields": [
+			"statistical-geography",
+			"name",
+			"area",
+			"organisation",
+			"register",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "statistical-geography"
+		}
+	  ]
+	},
+	"government-domain": {
+	  "index-entry-number": "11",
+	  "entry-number": "11",
+	  "entry-timestamp": "2021-11-30T23:49:02Z",
+	  "key": "government-domain",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "cabinet-office",
+		  "text": "Domains that use the gov.uk domain",
+		  "fields": [
+			"government-domain",
+			"hostname",
+			"organisation",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "government-domain"
+		}
+	  ]
+	},
+	"territory": {
+	  "index-entry-number": "7",
+	  "entry-number": "7",
+	  "entry-timestamp": "2021-11-30T23:45:10Z",
+	  "key": "territory",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "foreign-commonwealth-office",
+		  "text": "British English names of territories not currently recognised as countries by the UK government",
+		  "fields": [
+			"territory",
+			"name",
+			"official-name",
+			"start-date",
+			"end-date"
+		  ],
+		  "register": "territory"
+		}
+	  ]
+	},
+	"register": {
+	  "index-entry-number": "3",
+	  "entry-number": "3",
+	  "entry-timestamp": "2019-05-17T19:05:22Z",
+	  "key": "register",
+	  "item": [
+		{
+		  "phase": "beta",
+		  "registry": "environment-agency",
+		  "text": "Registers maintained by the Environment Agency",
+		  "fields": [
+			"register",
+			"text",
+			"registry",
+			"phase",
+			"copyright",
+			"fields"
+		  ],
+		  "register": "register"
+		}
+	  ]
+	}
+  }

@@ -1,0 +1,216 @@
+{
+	"phase": {
+		"index-entry-number": "9",
+		"entry-number": "9",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "phase",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "phase",
+				"datatype": "string",
+				"text": "The stage of development a register is in. There are 4 phases - discovery, alpha, beta and live.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"registry": {
+		"index-entry-number": "13",
+		"entry-number": "13",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "registry",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "registry",
+				"datatype": "string",
+				"text": "The organisation responsible for the data in a register. The custodian is usually from the organisation.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"copyright": {
+		"index-entry-number": "7",
+		"entry-number": "7",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "copyright",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "copyright",
+				"datatype": "text",
+				"text": "The copyright and licensing terms which may apply to the data held in a register.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"start-date": {
+		"index-entry-number": "2",
+		"entry-number": "2",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "start-date",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "start-date",
+				"datatype": "datetime",
+				"text": "The date a record first became relevant to a register.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"abbreviation": {
+		"index-entry-number": "4",
+		"entry-number": "4",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "abbreviation",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "abbreviation",
+				"datatype": "string",
+				"text": "The abbreviated form of a records official-name or name.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"cardinality": {
+		"index-entry-number": "10",
+		"entry-number": "10",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "cardinality",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "cardinality",
+				"datatype": "string",
+				"text": "A character (either '1' or 'n') that explains if a field in a register can contain multiple values. For example, a Strategic Health Authority may be located in two different territories.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"short-name": {
+		"index-entry-number": "5",
+		"entry-number": "5",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "short-name",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "short-name",
+				"datatype": "string",
+				"text": "The short name of a record.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"end-date": {
+		"index-entry-number": "1",
+		"entry-number": "1",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "end-date",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "end-date",
+				"datatype": "datetime",
+				"text": "The date a record stopped being applicable.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"field": {
+		"index-entry-number": "12",
+		"entry-number": "12",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "field",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "field",
+				"datatype": "string",
+				"text": "The name of a field. This field can appear in more than one register.",
+				"cardinality": "1",
+				"register": "field"
+			}
+		]
+	},
+	"datatype": {
+		"index-entry-number": "8",
+		"entry-number": "8",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "datatype",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "datatype",
+				"datatype": "string",
+				"text": "The format of the data held in a field.",
+				"cardinality": "1",
+				"register": "datatype"
+			}
+		]
+	},
+	"name": {
+		"index-entry-number": "6",
+		"entry-number": "6",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "name",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "name",
+				"datatype": "string",
+				"text": "The commonly-used name of a record.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"text": {
+		"index-entry-number": "3",
+		"entry-number": "3",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "text",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "text",
+				"datatype": "text",
+				"text": "More information about a record in a register.",
+				"cardinality": "1"
+			}
+		]
+	},
+	"fields": {
+		"index-entry-number": "11",
+		"entry-number": "11",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "fields",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "fields",
+				"datatype": "string",
+				"text": "The names of the fields in a register.",
+				"cardinality": "n",
+				"register": "field"
+			}
+		]
+	},
+	"register": {
+		"index-entry-number": "14",
+		"entry-number": "14",
+		"entry-timestamp": "2019-05-17T19:31:59Z",
+		"key": "register",
+		"item": [
+			{
+				"phase": "beta",
+				"field": "register",
+				"datatype": "string",
+				"text": "The name of a register.",
+				"cardinality": "1",
+				"register": "register"
+			}
+		]
+	}
+}
