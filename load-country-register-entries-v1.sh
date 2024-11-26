@@ -68,10 +68,10 @@ function do_nothing_forever {
 
 trap on_exit EXIT
 
-#echo "Starting \"$ENVIRONMENT\" environment."
-#echo "Starting country register..."
-#docker-compose -p openregister-java-country --file docker-compose.country-register.yml up -d
-#wait_for_http_on_port 4011 openregister-java-country
+echo "Starting \"$ENVIRONMENT\" environment."
+echo "Starting country register..."
+docker-compose -p openregister-java-country --file docker-compose.country-register.yml up -d
+wait_for_http_on_port 4011 openregister-java-country
 
 #for register in "register" "datatype" "field"; do
 #  echo "Loading $register..."
@@ -93,7 +93,7 @@ for register in "country"; do
     --header "Host: $register" \
     --data-binary "@$PWD/${register}.rsf" \
     --user foo:bar \
-    "http://192.168.1.99:4011/load-rsf"
+    "http://172.26.16.190:4011/load-rsf"
 done
 
 echo "Country register is ready on https://country.register.register-research.cloud"
