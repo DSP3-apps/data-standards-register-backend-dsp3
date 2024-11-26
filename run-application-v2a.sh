@@ -75,7 +75,7 @@ fi
 
 echo "Starting \"$ENVIRONMENT\" environment."
 echo "Starting basic registers..."
-# docker-compose -p openregister-java --file docker-compose.basic.yml --compatibility up -d
+docker-compose -p openregister-java --file docker-compose.basic.yml --compatibility up -d
 wait_for_http_on_port 8081 openregister-basic
 
 for register in "register" "datatype" "field"; do
